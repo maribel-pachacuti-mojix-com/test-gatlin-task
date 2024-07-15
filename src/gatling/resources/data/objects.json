@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "name": "Apple MacBook Pro 16",
+    "data": {
+      "year": 2019,
+      "price": 1849.99,
+      "CPU model": "Intel Core i9",
+      "Hard disk size": "1 TB"
+    }
+  },
+  {
+    "id": "2",
+    "name": "Dell XPS 13",
+    "data": {
+      "year": 2020,
+      "price": 1299.99,
+      "CPU model": "Intel Core i7",
+      "Hard disk size": "512 GB"
+    }
+  },
+  {
+    "id": "3",
+    "name": "HP Spectre x360",
+    "data": {
+      "year": 2021,
+      "price": 1399.99,
+      "CPU model": "Intel Core i7",
+      "Hard disk size": "1 TB"
+    }
+  },
+  {
+    "id": "4",
+    "name": "Lenovo ThinkPad X1 Carbon",
+    "data": {
+      "year": 2022,
+      "price": 1499.99,
+      "CPU model": "Intel Core i7",
+      "Hard disk size": "1 TB"
+    }
+  },
+  {
+    "id": "5",
+    "name": "Microsoft Surface Laptop 4",
+    "data": {
+      "year": 2021,
+      "price": 1599.99,
+      "CPU model": "Intel Core i7",
+      "Hard disk size": "512 GB"
+    }
+  },
+  {
+    "id": "6",
+    "name": "Asus ROG Zephyrus G14",
+    "data": {
+      "year": 2020,
+      "price": 1449.99,
+      "CPU model": "AMD Ryzen 9",
+      "Hard disk size": "1 TB"
+    }
+  },
+  {
+    "id": "7",
+    "name": "Acer Swift 3",
+    "data": {
+      "year": 2021,
+      "price": 749.99,
+      "CPU model": "AMD Ryzen 7",
+      "Hard disk size": "512 GB"
+    }
+  },
+  {
+    "id": "8",
+    "name": "Razer Blade 15",
+    "data": {
+      "year": 2022,
+      "price": 1999.99,
+      "CPU model": "Intel Core i7",
+      "Hard disk size": "1 TB"
+    }
+  },
+  {
+    "id": "9",
+    "name": "Apple MacBook Air",
+    "data": {
+      "year": 2020,
+      "price": 999.99,
+      "CPU model": "Apple M1",
+      "Hard disk size": "256 GB"
+    }
+  },
+  {
+    "id": "10",
+    "name": "Samsung Galaxy Book Flex",
+    "data": {
+      "year": 2020,
+      "price": 1349.99,
+      "CPU model": "Intel Core i7",
+      "Hard disk size": "512 GB"
+    }
+  }
+]
