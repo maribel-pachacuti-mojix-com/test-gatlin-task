@@ -11,7 +11,7 @@ import static io.gatling.javaapi.http.HttpDsl.*;
 public class RestfulApiTest extends Simulation {
 
     String baseUrl = System.getProperty("baseUrl", "https://api.restful-api.dev");
-
+    String concurrentUsers = System.getProperty("concurrentUsers", "10");
     private final HttpProtocolBuilder httpProtocol = http
             .baseUrl(baseUrl)
             .acceptHeader("application/json")
@@ -80,7 +80,7 @@ public class RestfulApiTest extends Simulation {
         setUp(
                 scn.injectClosed(
                         rampConcurrentUsers(1).to(10).during(Duration.ofSeconds(10)),
-                        constantConcurrentUsers(10).during(Duration.ofSeconds(20))
+                        constantConcurrentUsers(Integer.parseInt(concurrentUsers)).during(Duration.ofSeconds(20))
                 )
         ).protocols(httpProtocol);
     }
